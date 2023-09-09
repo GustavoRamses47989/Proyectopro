@@ -1,10 +1,12 @@
 #pragma once
 
-class  Jugador
+class Jugador
 {
 private:
-    /* data */
+    int edad;
+    string nombre; 
 public:
-     Jugador(/* args */) {}
-    ~ Jugador() {}
+    Jugador(/* args */) {}
+    ~Jugador() {}
+    void AsignarNombre
 };

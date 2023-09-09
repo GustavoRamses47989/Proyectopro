@@ -1,8 +1,12 @@
+#pragma once 
+
 class Personaje
 {
 private:
-    /* data */
+    int payaso;
+    string Nombre 
 public:
     Personaje(/* args */) {}
     ~Personaje() {}
+    void AsignarPersonaje
 };
