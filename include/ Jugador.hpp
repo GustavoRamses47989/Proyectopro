@@ -4,7 +4,8 @@ class Jugador
 {
 private:
     int edad;
-    string nombre; 
+    string nombre;
+
 public:
     Jugador(/* args */) {}
     ~Jugador() {}
