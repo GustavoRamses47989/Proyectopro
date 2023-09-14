@@ -2,8 +2,13 @@
 
 ### Descripcion 
 
-- a
-- b
+- resumen
+- como jugar 
+**Juego**
 
-![Texto alternativo](/images/portada.jpg)
+![imagen del juego](/images/portada.jpg) 
+![Alt text](image.png)
 
+## Diagrama
+
+![](/out/docs/Diagrama/Diagrama.png) 
