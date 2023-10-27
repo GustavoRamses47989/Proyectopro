@@ -1,7 +1,11 @@
+#pragma once
+
 class Dibujo
 {
 private:
-    /* data */
+    int Dibujo;
+    string Nombre;
+
 public:
     Dibujo(/* args */) {}
     ~Dibujo() {}

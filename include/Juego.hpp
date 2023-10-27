@@ -1,7 +1,10 @@
+#pragma once
+
 class Juego
 {
 private:
-    /* data */
+    string nombre;
+
 public:
     Juego(/* args */) {}
     ~Juego() {}

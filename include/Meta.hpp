@@ -1,10 +1,10 @@
 #pragma once
 
-class Mono
+class Meta
 {
 private:
     /* data */
 public:
-    Mono(/* args */) {}
-    ~Mono() {}
+    Meta(/* args */) {}
+    ~Meta() {}
 };
