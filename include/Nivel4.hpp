@@ -5,17 +5,17 @@ private:
     int Puntaje;
     int Distancia;
     int tiempo;
+
 public:
-    Nivel 4(std::string nombre) {
-        this->Vida =0;
+    Nivel 4(std::string nombre)
+    {
+        this->Vida = 0;
         this->Vida = nombre;
-        this->Puntaje =0;
+        this->Puntaje = 0;
         this->Puntaje = nombre;
-        this->Distancia =0;
-        this->Distancia =nombre;
+        this->Distancia = 0;
+        this->Distancia = nombre;
     }
-
-
 
     ~Nivel4() {}
 

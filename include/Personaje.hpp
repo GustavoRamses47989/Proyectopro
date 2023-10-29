@@ -1,5 +1,5 @@
-#pragma once 
-#include< Jugador.hpp>
+#pragma once
+#include < Jugador.hpp>
 
 class Personaje
 {
@@ -8,12 +8,9 @@ private:
     int Vida;
     int Puntaje;
     int Podio
-    string Nombre 
-public:
-    Personaje(/* args */) {
+        string Nombre public : Personaje(/* args */)
+    {
         this->payaso;
-
-
     }
     ~Personaje() {}
     void AsignarPersonaje

@@ -12,7 +12,6 @@ private:
     int Puntaje;
     int Juego;
     int Jugador;
-    
 
 public:
     CircusCharlie(/* args */) {}

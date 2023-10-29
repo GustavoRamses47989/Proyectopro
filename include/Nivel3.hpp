@@ -7,19 +7,20 @@ private:
     int tiempo;
 
 public:
-    Nivel 3(std::string nombre) {
-        this->Vida =0;
+    Nivel 3(std::string nombre)
+    {
+        this->Vida = 0;
         this->Vida = nombre;
-        this->Puntaje =0;
+        this->Puntaje = 0;
         this->Puntaje = nombre;
-        this->Distancia =0;
-        this->Distancia =nombre;
+        this->Distancia = 0;
+        this->Distancia = nombre;
     }
-    ~Nivel3() {
-
-    } 
+    ~Nivel3()
+    {
+    }
     void Nivel3()
-    Escenario
+        Escenario
     {
         EscenarioPelota;
     }

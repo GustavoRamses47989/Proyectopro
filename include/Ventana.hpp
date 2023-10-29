@@ -10,45 +10,45 @@ private:
     int x;
     int y;
     bool cerrar;
+
 public:
     Ventana()
     {
-        //iniciar pantalla
+        // iniciar pantalla
         initscr();
-        //eliminar cursor pantalla
+        // eliminar cursor pantalla
         noecho();
         curs_set(FALSE);
 
-        //no bloquear consola
+        // no bloquear consola
         nocbreak();
 
         getmaxyx(stdscr, y, x);
         cerrar = false;
-        
     }
 
-    void Actualizar(list<Actualizable*> listaActualizables)
+    void Actualizar(list<Actualizable *> listaActualizables)
     {
-        //getch()
+        // getch()
         for (auto &&iterador : listaActualizables)
         {
             iterador->Actualizar();
         }
-        
-        //a.Actualizar();
-        usleep(41000);//micro segundos en los que dibuja
+
+        // a.Actualizar();
+        usleep(41000); // micro segundos en los que dibuja
     }
 
-    void Dibujar(list<Dibujo*>listaDibujo)
+    void Dibujar(list<Dibujo *> listaDibujo)
     {
         clear();
-        //d.Dibujar();
+        // d.Dibujar();
         box(stdscr, '|', '-');
         for (auto &&dibujo : listaDibujo)
         {
             dibujo->Dibujar();
         }
-        
+
         refresh();
     }
     bool DeboCerrar()

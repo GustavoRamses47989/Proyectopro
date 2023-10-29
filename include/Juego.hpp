@@ -3,26 +3,25 @@
 #include <Dibujo.hpp>
 #include <Actualizable.hpp>
 
-
 class Juego : public Dibujo, public Actualizable
 {
 private:
-    //Vector posicion;
+    // Vector posicion;
 
 public:
     Juego() : Dibujo("Payaso")
     {
         this->posicion = Vector();
     }
-    Payaso(int x,int y) : Dibujo("cow")
+    Payaso(int x, int y) : Dibujo("cow")
     {
-        //this->posicion.DesplazarX(x);
-        //this->posicion.DesplazarY(y);
+        // this->posicion.DesplazarX(x);
+        // this->posicion.DesplazarY(y);
     }
     void Actualizar()
     {
         this->posicion.DesplazarX(1);
-        //this->posicion.CambiarDireccionX();
+        // this->posicion.CambiarDireccionX();
     }
     void Avanzar()
     {

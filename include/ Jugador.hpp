@@ -11,7 +11,6 @@ private:
     string nombre;
     int Inicio;
     int Menu;
-    
 
 public:
     Jugador(std::string nombre)
