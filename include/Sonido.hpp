@@ -1,7 +1,8 @@
 class Sonido
 {
 private:
-    /* data */
+    int Menu;
+    
 public:
     Sonido(/* args */) {}
     ~Sonido() {}

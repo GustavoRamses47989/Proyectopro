@@ -1,8 +1,21 @@
 class Nivel5
 {
 private:
-    /* data */
+    int Vida;
+    int Puntaje;
+    int Distancia;
+    int tiempo;
 public:
-    Nivel5(/* args */) {}
+     Nivel 5(std::string nombre) {
+        this->Vida =0;
+        this->Vida = nombre;
+        this->Puntaje =0;
+        this->Puntaje = nombre;
+        this->Distancia =0;
+        this->Distancia =nombre;
+    }
+
+
+
     ~Nivel5() {}
 };

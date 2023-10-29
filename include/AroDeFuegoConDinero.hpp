@@ -1,9 +1,13 @@
 #pragma once
+#include < Jugador.hpp>
+#include <Personaje.hpp>
+#include <CircusCharlie.hpp>
 
 class AroDeFuegoConDinero
 {
 private:
-    /* data */
+    int objeto;
+
 public:
     AroDeFuegoConDinero(/* args */) {}
     ~AroDeFuegoConDinero() {}

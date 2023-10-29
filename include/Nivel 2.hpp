@@ -23,4 +23,9 @@ public:
      void Jugar(){
         this->Vida 
      }
+     Escenario
+    {
+        EscenarioEquilibrio;
+    }
+    void Escenario
 };

@@ -3,7 +3,8 @@
 class EscenarioRebote
 {
 private:
-    /* data */
+    int rebotar;
+
 public:
     EscenarioRebote(/* args */) {}
     ~EscenarioRebote() {}

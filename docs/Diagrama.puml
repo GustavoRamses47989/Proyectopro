@@ -41,6 +41,9 @@ class CircusCharlie
     class Trampolin 
     class Tiempo 
     class Meta 
+    class Menu 
+    class Inicio 
+
     Distancia--|>Tiempo 
     Payaso--|>Persona 
     MonoAzul--|>Animal 
@@ -62,6 +65,8 @@ class CircusCharlie
     Jugador o--Nivel4
     Jugador o--Nivel5
     Jugador o--Vida 
+    Jugador o--Inicio
+    Jugador o--Menu
     LigaDeEquilibrio--|>Objeto 
     Podio--|>Objeto 
     Publico--|>Objeto 
@@ -162,6 +167,10 @@ class CircusCharlie
     Nivel5*--Podio 
     Nivel5*--Puntaje 
     Nivel5*--Publico 
+    Inicio*--Menu 
+    Juego*--Inicio
+    Juego*--Menu
+
 
 
 

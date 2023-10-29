@@ -3,7 +3,9 @@
 class Leon
 {
 private:
-    /* data */
+    string nombre;
+    int animal;
+    
 public:
     Leon(/* args */) {}
     ~Leon() {}

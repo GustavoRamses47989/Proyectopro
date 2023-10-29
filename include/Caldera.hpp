@@ -1,9 +1,13 @@
 #pragma once
+#include < Jugador.hpp>
+#include <Personaje.hpp>
+#include <CircusCharlie.hpp>
 
 class Caldera
 {
 private:
-    int objeto;
+    int Objeto;
+    int Obstaculo;
 
 public:
     Caldera(/* args */) {}
